@@ -1,0 +1,16 @@
+.header-menu .squarify-dark-mode-toggle-center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[data-squarify-id='squarifyDarkModeToggle'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+a[data-squarify-id='squarifyDarkModeToggle'] svg {
+  color: var(--navigationLinkColor);
+}
